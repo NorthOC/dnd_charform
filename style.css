@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background: url('https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family:Tahoma, sans-serif;
+    font-size: 16px;
+}
+.test{
+    text-align: center;
+    text-shadow: 2px 1px #1b1b1b96;
+    color: #f3f3f3;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+.caption{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.title-caption{
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    text-shadow: 1px 1px 1px 1px rgb(0 0 0 / 40%);
+    font-size: 0.9em;
+}
+#form{
+    display: block;
+    text-align: center;
+}
+#survey-form{
+    display: inline-block;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 5px;
+    padding: 40px;
+    max-width: 550px;
+}
+label{
+    color: #f3f3f3;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px rgba(7, 29, 224, 0.507);
+}
+input[type=text], select, #email, #number {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.radio{
+    color: rgb(255, 71, 132);
+    display: block;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+}
+.radio:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.checkbox{
+    color: rgb(255, 71, 132);
+    display: block;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+}
+.checkbox:hover{
+    animation-name: hello;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes hello {
+    0%{
+        color: red;
+    }
+    25%{
+        color: rgb(0, 255, 0);
+    }
+    50%{
+        color: blue;
+    }
+    75%{
+        color: rgb(238, 1, 238);
+    }
+    100%{
+        color: red;
+    }
+}
+textarea{
+    display: block;
+    margin: 0, auto;
+    height: 216px;
+    width: 98.8%;
+    max-width: 545px;
+    font-family: Arial, 'Poppins', sans-serif;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.651);
+    text-decoration: none;
+    resize: none;
+}
+#textarea:focus{
+    outline: none;
+}
